@@ -3,4 +3,8 @@ public with sharing class AccountRetreival {
         return [SELECT Id, Name FROM Account LIMIT 8];
 
     }
+
+    public static void data(){
+        
+    }
 }
