@@ -1,6 +1,6 @@
 public with sharing class AccountCreation {
-    public AccountCreation() {
-        System.debug('coming inside');
-        
+    public static void AccountCreation() {
+        System.debug('coming');
+        System.debug('coming inside2');
     }
 }
